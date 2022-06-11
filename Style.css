@@ -1,0 +1,33 @@
+.header{
+    background-color: blue;
+    
+    color: black;
+    height: 80px;
+}
+.header-component{
+    width: 800px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header-component div img {
+    height: 50px;
+    width: 50px;
+
+}
+.nav-item ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-item ul li{
+    margin-left: 15px;
+}
+
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
+}
