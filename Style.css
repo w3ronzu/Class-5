@@ -1,8 +1,14 @@
+*{
+ margin: 0;
+ /* font-family: 'Poppins', sans-serif; */
+}
+/* header desgin start */
 .header{
     background-color: blue;
     
-    color: black;
+    color: white;
     height: 80px;
+   
 }
 .header-component{
     width: 800px;
@@ -10,13 +16,18 @@
     padding: 10px 0px 10px 0px;
     display: flex;
     justify-content: space-between;
-    display: flex;
+  
 }
 
 .header-component div img {
     height: 50px;
     width: 50px;
+    
+}
 
+.img{
+    display: flex;
+   
 }
 .nav-item ul{
     list-style: none;
@@ -31,3 +42,65 @@
     text-decoration: none;
     color: white;
 }
+/* header desgin end */
+
+/* main design start */
+.Section-body{
+   
+}
+.top-p-b{
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.top-p-b h2{
+    color: #562eff;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    margin-top: 20px;
+} 
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.player img{
+    width: 70px;
+    border-radius: 50%;
+}
+.player p{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.top-blog h2{
+    margin-top: 10px;
+
+}
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    margin-top: 20px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.blog img{
+    width: 200px;
+}
+.blog p{
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* main design end */
