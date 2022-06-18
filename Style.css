@@ -19,6 +19,11 @@
   
 }
 
+.header-component h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 .header-component div img {
     height: 50px;
     width: 50px;
@@ -32,6 +37,7 @@
 .nav-item ul{
     list-style: none;
     display: flex;
+    margin-top: 20px;
 }
 
 .nav-item ul li{
@@ -56,7 +62,7 @@
     background-color: white;
     margin-top: 50px;
     border-radius: 5px;
-}
+   }
 
 .top-p-b h2{
     color: #562eff;
@@ -96,11 +102,45 @@
 }
 .blog img{
     width: 200px;
+    border-radius: 10px;
 }
 .blog p{
     margin-left: 15px;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
+}
+
+.latest-courses{
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.latest-courses h1{
+    color: #562eff;
+}
+
+.course-img img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card{
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-around;
 }
 
 /* main design end */
